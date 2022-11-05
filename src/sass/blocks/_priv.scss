@@ -5,7 +5,13 @@
     padding-bottom: 56px;
     &__wrapper {
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__wrapper_all {
+        display: flex;
+        justify-content: space-between;
     }
     &__descr {
         font-family: 'Roboto';
