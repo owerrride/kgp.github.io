@@ -3,8 +3,10 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 1440px;
-    height: 146px;
+    max-width: 1300px;
 }
 
 @import 'blocks/head';
+@import 'blocks/main';
+@import 'blocks/buttons';
+@import 'blocks/priv';

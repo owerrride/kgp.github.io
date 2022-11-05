@@ -1,0 +1,23 @@
+.main {
+    height: 726px;
+    background: url("../img/bg_main.png") center (center/cover) no-repeat;
+    &__title {
+        padding-top: 83px;
+        // padding-left: 123px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        color: #DA9125;
+    }
+    &__subtitle {
+        padding-top: 60px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+}
