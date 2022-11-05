@@ -1,0 +1,29 @@
+.about {
+    height: 828px;
+    background: #2D2D2D;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__title {
+        padding-top: 51px;
+        font-family: 'Playfair Display';
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__text {
+        padding-left: 53px;
+        padding-right: 54px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+}
