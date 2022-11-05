@@ -1,0 +1,32 @@
+.head {
+    background-color: #2D2D2D;
+    &__logo {
+        margin-top: 38px;
+    }       
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        margin-top: 28px;
+    }
+    a {
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: 31px;
+    }
+    &__social {
+        transform: scale(80%);
+        margin-top: 28px;
+    }
+    &__search {
+        margin-top: 28px;
+    }
+}
