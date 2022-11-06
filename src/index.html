@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -59,7 +60,6 @@
         </div>
     </section>
     <section class="about">
-        <!-- <div class="container"> -->
             <div class="about__wrapper">
                 <img class="about__img" src="img/about.jpg" alt="about">
                 <div class="about__text">
@@ -79,7 +79,30 @@
                     Мы относимся к нашему клиенту так, как хотели бы, чтобы относились к нам самим.
                 </div>
             </div>
-        <!-- </div> -->
     </section>
+
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog__title">ЧЕМ МЫ МОЖЕМ ВАМ ПОМОЧЬ?</h2>
+            <h3 class="catalog__subtitle">Область деятельности</h3>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active">Для физических лиц</li>
+                <li class="catalog__tab catalog__tab-second">Для юридических лиц</li>
+            </ul>
+                <div class="catalog__content catalog__content_active">
+                    <div class="catalog__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam qui impedit exercitationem</div>
+                    <div class="catalog__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam qui impedit exercitationem</div>
+                    <div class="catalog__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam qui impedit exercitationem</div>
+                </div>
+                <div class="catalog__content">
+                    <div class="catalog__item">Test</div>
+                    <div class="catalog__item">Test</div>
+                    <div class="catalog__item">Test</div>
+                </div>
+            </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

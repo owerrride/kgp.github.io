@@ -1,0 +1,75 @@
+.catalog {
+    min-height: 1060px;
+    background-color: #3E3E3E;
+    &__title {
+        padding-top: 63px;
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        padding-top: 29px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__tabs {
+        padding-top: 37px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    &__tab {
+        box-sizing: border-box;
+        width: 408px;
+        height: 63px;
+        left: 313px;
+        top: 2200px;
+        border: 2px solid #FFFFFF;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 55px;
+        cursor: pointer;
+        &_active {
+            background: linear-gradient(92.55deg, #DB9225 0%, #AE3F00 100%);
+        }
+    }
+    &__tab-second {
+        // background: linear-gradient(-92.55deg, #DB9225 0%, #AE3F00 100%);
+        border-top-right-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    &__content {
+        margin-top: 88px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        display: none;
+        &_active {
+            display: flex;
+        }
+    }
+}
