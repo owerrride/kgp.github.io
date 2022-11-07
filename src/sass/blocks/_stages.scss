@@ -1,0 +1,84 @@
+.stages {
+    padding-left: 120px;
+    padding-right: 120px;
+    background: #2D2D2D;
+    box-shadow: inset 0px 0px 80px rgba(0, 0, 0, 0.3);
+    height: 800px;
+    &__title {
+        padding-top: 60px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__numbers-wrapper {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 117px;
+        /* identical to box height, or 122% */
+        display: flex;
+        justify-content: space-between;
+        margin: 0 70px;
+        /* Linear */
+        background: linear-gradient(92.55deg, #DB9225 0%, #AE3F00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__line {
+        padding-top: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__tabs-wrapper-all {
+        padding-top: 50px;
+        // padding-left: 120px;
+        display: flex;
+    }
+    h3 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__tab {
+        padding-left: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+// #tab1 {
+//     position: absolute;
+//     padding-left: 60px;
+//     width: 221px;
+// }
+
+// #tab2 {
+//     position: absolute;
+//     padding-left: 380px;
+//     width: 289px;
+// }
+
+// #tab3 {
+//     position: absolute;
+//     padding-left: 700px;
+//     width: 294px;
+// }
+
+// #tab4 {
+//     position: absolute;
+//     padding-left: 1050px;
+//     width: 232px;
+// }
