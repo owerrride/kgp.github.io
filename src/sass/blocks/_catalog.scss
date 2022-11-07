@@ -75,22 +75,30 @@
         }
         &__title {
             padding-top: 40px;
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 400;
-            font-size: 34px;
+            font-size: 32px;
             line-height: 40px;
             text-align: center;
             color: #FFFFFF;
         }
         &__text {
             padding-top: 30px;
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
             color: #FFFFFF;
+        }
+    }
+    &__item {
+        width: 300px;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        img {
+            max-width: 120px;
         }
     }
 }
