@@ -85,7 +85,7 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
-            color: #FFFFFF; 
+            color: #FFFFFF;
         }
     }
     &__item {
@@ -100,5 +100,9 @@
         img {
             max-width: 120px;
         }
+    }
+    &__btn {
+        display: block;
+        margin: 73px auto;
     }
 }
