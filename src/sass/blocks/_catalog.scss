@@ -58,7 +58,7 @@
         border-bottom-left-radius: 0px;
     }
     &__content {
-        margin-top: 88px;
+        margin-top: 60px;
         display: flex;
         justify-content: center;
         font-family: 'Roboto';
@@ -68,6 +68,8 @@
         line-height: 21px;
         color: #FFFFFF;
         display: none;
+        padding-left: 70px;
+        padding-right: 70px;
         &_active {
             display: flex;
         }
