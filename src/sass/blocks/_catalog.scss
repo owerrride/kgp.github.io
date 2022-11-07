@@ -59,7 +59,6 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
         justify-content: center;
         font-family: 'Roboto';
         font-style: normal;
@@ -82,7 +81,7 @@
             color: #FFFFFF;
         }
         &__text {
-            padding-top: 30px;
+            padding-top: 60px;
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
